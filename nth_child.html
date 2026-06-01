@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*selecting rows*/
+        tr:nth-child(even)
+        {
+            background-color:bisque;
+            border: 2px solid blueviolet;
+        }
+        tr:nth-child(odd)
+        {
+            background-color:brown;
+        }
+        /*selecting columns*/
+        tr td:nth-child(2)
+        {
+            background-color:aquamarine;
+        }
+        tr td:nth-child(2):hover
+        {
+            background-color:orange;
+        }
+        
+    </style>
+</head>
+<body>
+ <table border>
+    <th>name</th>
+    <th>age</th>
+    <th>role</th>
+    <tr>
+        <td>manasa</td>
+        <td>21</td>
+        <td>python</td>
+    </tr>
+    <tr>
+        <td>nandhini</td>
+        <td>22</td>
+        <td>SQL</td>
+    </tr>
+    <tr>
+        <td>arvind</td>
+        <td>23</td>
+        <td>html</td>
+    </tr>
+    <tr>
+        <td>radhika</td>
+        <td>21</td>
+        <td>java</td>
+    </tr>
+    <tr>
+        <td>sushmi</td>
+        <td>21</td>
+        <td>css</td>
+    </tr>
+ </table>   
+</body>
+</html>
